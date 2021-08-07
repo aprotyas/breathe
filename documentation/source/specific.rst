@@ -236,6 +236,29 @@ C++ Trailing Return Type
 .. doxygenfile:: cpp_trailing_return_type.h
    :project: cpp_trailing_return_type
 
+C++ Function Lookup
+-------------------
+
+.. cpp:namespace:: @ex_specific_cpp_function_lookup
+
+.. doxygenfunction:: fInit(int)
+   :project: cpp_function_lookup
+.. doxygenfunction:: fPlain(int)
+   :project: cpp_function_lookup
+.. doxygenfunction:: fPtr(int*)
+   :project: cpp_function_lookup
+.. doxygenfunction:: fLRef(int&)
+   :project: cpp_function_lookup
+.. doxygenfunction:: fRRef(int&&)
+   :project: cpp_function_lookup
+.. doxygenfunction:: fParamPack(T...)
+   :project: cpp_function_lookup
+.. doxygenfunction:: fMemPtr(int A::*)
+   :project: cpp_function_lookup
+.. doxygenfunction:: fParen(void (*)())
+   :project: cpp_function_lookup
+
+
 Doxygen xrefsect
 ----------------
 
